@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 * {
@@ -55,4 +56,63 @@ hr {
 
 #barraNav ul a:hover {
   background-color: #ffffff34;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #0d1a3b, #183d66, #2578a9);
+}
+
+#logo {
+  height: 3rem;
+}
+
+.search-icon {
+  height: 1.5rem;
+}
+
+.pay-icon {
+  height: 1.8rem;
+}
+
+.media-icon {
+  height: 1.3rem;
+}
+
+.breadcrumb {
+  text-underline-offset: 0.3rem;
+}
+
+hr {
+  color: white;
+}
+
+/*
+#background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px) brightness(0.5);
+  transform: scale(1.1);
+  width: 150%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left:50;
+  z-index: -1;
+}
+*/
+
+#barraNav, footer {
+  background-color: #0d1326
+}
+
+#barraNav ul a:hover {
+  background-color: #ffffff34;
+>>>>>>> a322aadc6321bec7ce805f3599a264ba3858fdac
 }
