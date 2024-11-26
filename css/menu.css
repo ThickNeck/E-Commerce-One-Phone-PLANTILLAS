@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .card {
   transition: box-shadow 0.3s ease;
 }
@@ -31,38 +30,4 @@
 
 #productModal .card:hover {
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
-=======
-.card {
-  transition: box-shadow 0.3s ease;
-}
-
-.card:hover {
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
-}
-
-.carousel-inner .carousel-item {
-  opacity: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  display: block;
-  position: absolute;
-}
-
-.carousel-inner .carousel-item:first-of-type {
-  position: relative;
-}
-
-.carousel-inner .active {
-  opacity: 1;
-}
-
-#productModal .card {
-  border: 1px solid black;
-  transition: box-shadow 0.3s ease;
-}
-
-#productModal .card:hover {
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
->>>>>>> a322aadc6321bec7ce805f3599a264ba3858fdac
 }
